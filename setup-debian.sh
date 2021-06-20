@@ -1,7 +1,7 @@
 #!/bin/sh
 apt update -y
 apt upgrade -y
-apt install firefox -y
+apt install firefox-esr -y
 apt install tor -y
 apt install wget -y
 cd Downloads
