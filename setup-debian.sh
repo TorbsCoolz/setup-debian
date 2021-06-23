@@ -1,11 +1,13 @@
 #!/bin/sh
 apt update -y
 apt upgrade -y
-apt install firefox-esr tor wget nano firefox xfce4 xfce4-goodies xfce4-whiskermenu-plugin gtk-nocsd marco -y
-cd ~/Downloads
+apt install firefox-esr tor wget nano xfce4 xfce4-goodies xfce4-whiskermenu-plugin gtk-nocsd marco tar zip unzip -y
 wget https://codeload.github.com/matthewmx86/Redmond97/zip/refs/heads/master
-tar xvzf Redmond97.tar.gz -C /usr/share/Themes
-tar xvzf Redmond97-icons.tar.gz -C /usr/share/Icons
+unzip master -d main
+cp -r main/Redmond97-master/Theme/csd/Redmond97 /usr/share/themes
+cp -r "main/Redmond97-master/Theme/csd/Redmond97 NT" /usr/share/themes
+cp -r "main/Redmond97-master/Theme/csd/Redmond97 Millennium XP" /usr/share/themes
+cp -r main/Redmond97-master/Extras/Icons/Redmond97 /usr/share/icons
 gtk-update-icon-cache /usr/share/icons/Redmond97/
 cd ~/
-apt install gparted xfce4-taskmanager torbrowser-launcher libreoffice thunderbird gimp tilp2 -y
+apt install gparted xfce4-taskmanager torbrowser-launcher libreoffice thunderbird gimp tilp2 cool-retro-term -y
