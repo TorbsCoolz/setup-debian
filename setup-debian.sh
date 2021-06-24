@@ -9,4 +9,4 @@ cp -r "main/Redmond97-master/Theme/csd/Redmond97 NT" /usr/share/themes
 cp -r "main/Redmond97-master/Theme/csd/Redmond97 Millennium XP" /usr/share/themes
 cp -r main/Redmond97-master/Extras/Icons/Redmond97 /usr/share/icons
 gtk-update-icon-cache /usr/share/icons/Redmond97/
-apt install gparted xfce4-taskmanager torbrowser-launcher libreoffice thunderbird gimp tilp2 cool-retro-term xterm xfonts-cyrillic transmission-gtk vlc htop clementine -y
+apt install gparted xfce4-taskmanager torbrowser-launcher libreoffice thunderbird gimp tilp2 cool-retro-term xterm xfonts-cyrillic transmission-gtk vlc htop mousepad clementine -y
